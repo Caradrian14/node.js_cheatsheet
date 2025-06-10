@@ -13,8 +13,8 @@ fs.readFile('./data/text.txt', function(error, data) {
     if (error) {
         console.error('Error al leer el archivo:', error);
         return; // Salir de la función si hay un error
-    }
-
-    console.log('Terminé de leer el archivo');
-    console.log(data.toString());
+    } else {
+        console.log('Terminé de leer el archivo');
+        console.log(data.toString());
+    } 
 });
