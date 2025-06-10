@@ -7,3 +7,17 @@
 Toda la sintaxis de javascript es reutilizable en nodejs
 
 Las funcionalidades se parecen a las del navegador, pero en este caso node nos da mas poder para poder manejar ficheros y archivos a nivel de servidor. la consola no se puede interactuar
+
+## nom init
+`npm init` inicializa el proyecto desde 0 y se puede ir rellenando con lo que te sale.
+## Nodemon
+un modulo que ejecuta inmediatamente node al aplicar un cambio para comprobar qu evaya bien ( comodo para vs code)
+
+## instalar modulos globales
+se puede instalar modulos globales, en todo el sistema, como lo hace pip en python. 
+`npm i nodemon -g` con esto s einatala en todo el sistema operativo para que este en todos lados
+`npm remove nodemon -g` para quitarlo del sistema operativo
+
+## npx
+Este comando sirve para aplocaciones de consola. te instala un paquete bin para ser usado desde consola.
+
