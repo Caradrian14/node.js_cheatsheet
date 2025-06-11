@@ -13,10 +13,13 @@ function multiply (x, y) {
 function divide (x, y) {
     return x/y
 }
+// cuidado como se exporta que puede haber problemas
+export default substract;
+// export { substract };
 
-module.exports = {
-    add,
-    substract,
-    multiply,
-    divide
-}
+// module.exports = {
+//     add,
+//     substract,
+//     multiply,
+//     divide
+// }
