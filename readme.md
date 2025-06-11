@@ -24,3 +24,9 @@ Este comando sirve para aplocaciones de consola. te instala un paquete bin para 
 
 ## Modulos export y imports
 en `package.json` si se cambia la parte de `type` a 'modules' se puede realizar el import y export para adaptarlo.
+
+# Express.js
+`npm i express`
+
+# Deploy
+Heroku que es gratis y facil, y no muy complicado.
